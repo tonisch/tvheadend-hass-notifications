@@ -1,32 +1,32 @@
 # TVHeadend Notify
 
-Home Assistant Custom Integration für Benachrichtigungen über neue und abgeschlossene TVHeadend-Aufnahmen.
+Home Assistant Custom Integration for notifications about new and completed TVHeadend recordings.
 
 ## Features
-- Sensor-Entity für neue und abgeschlossene Aufnahmen
-- Konfiguration über die Home Assistant UI
-- Automatisierbare Benachrichtigungen
+- Sensor entity for new and completed recordings
+- Configuration via Home Assistant UI
+- Automatable notifications
 
-## Installation über HACS
+## Installation via HACS
 
-1. Repository auf GitHub veröffentlichen (z.B. als `tvheadend-hass-notifications`).
-2. In Home Assistant → HACS → Integrationen → "Custom Repository" hinzufügen:
-   - URL deines Repos angeben
-   - Typ: Integration
-3. Nach kurzer Zeit erscheint "TVHeadend Notify" in HACS und kann installiert werden.
-4. Nach Installation Home Assistant neu starten und Integration wie gewohnt einrichten.
+1. Publish the repository on GitHub (e.g., as `tvheadend-hass-notifications`).
+2. In Home Assistant → HACS → Integrations → "Custom Repository":
+   - Enter your repository URL
+   - Type: Integration
+3. After a short time, "TVHeadend Notify" will appear in HACS and can be installed.
+4. After installation, restart Home Assistant and set up the integration as usual.
 
-## Manuelle Installation
+## Manual Installation
 
-1. Kopiere den Ordner `custom_components/tvheadend_notify` in dein Home Assistant `custom_components`-Verzeichnis.
-2. Starte Home Assistant neu.
-3. Integration über die Oberfläche hinzufügen und Zugangsdaten eingeben.
+1. Copy the folder `custom_components/tvheadend_notify` into your Home Assistant `custom_components` directory.
+2. Restart Home Assistant.
+3. Add the integration via the UI and enter your credentials.
 
-## Konfiguration
-Die Integration wird komplett über die UI eingerichtet (TVHeadend-URL, Benutzername, Passwort).
+## Configuration
+The integration is fully configured via the UI (TVHeadend URL, username, password).
 
-## Automatisierung
-Lege eine Automation an, die auf Statusänderungen des Sensors reagiert und Benachrichtigungen verschickt.
+## Automation
+Create an automation that reacts to changes in the sensor's state and sends notifications.
 
 ---
 
