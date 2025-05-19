@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+.Trash/
+
+# Python
+__pycache__/
+*.pyc
+
+# Home Assistant
+*.db
+*.log
+home-assistant_v2.db

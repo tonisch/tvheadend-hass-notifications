@@ -1,0 +1,16 @@
+{
+  "title": "TVHeadend Notifications",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to TVHeadend",
+        "description": "Enter your TVHeadend instance credentials.",
+        "data": {
+          "url": "TVHeadend URL",
+          "username": "Username",
+          "password": "Password"
+        }
+      }
+    }
+  }
+} 

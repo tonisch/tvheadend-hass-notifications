@@ -1,0 +1,9 @@
+{
+  "domain": "tvheadend_notify",
+  "name": "TVHeadend Notify",
+  "version": "0.1.0",
+  "documentation": "https://github.com/dein-github/tvheadend_notify",
+  "requirements": ["requests"],
+  "dependencies": [],
+  "codeowners": ["@dein-github"]
+} 

@@ -1,0 +1,7 @@
+{
+  "name": "TVHeadend Notify",
+  "content_in_root": false,
+  "domains": ["integration"],
+  "country": "de",
+  "homeassistant": "2023.0.0"
+} 

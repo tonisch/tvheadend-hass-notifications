@@ -1,0 +1,16 @@
+{
+  "title": "TVHeadend Benachrichtigungen",
+  "config": {
+    "step": {
+      "user": {
+        "title": "TVHeadend verbinden",
+        "description": "Gib die Zugangsdaten zu deiner TVHeadend-Instanz ein.",
+        "data": {
+          "url": "TVHeadend URL",
+          "username": "Benutzername",
+          "password": "Passwort"
+        }
+      }
+    }
+  }
+} 
